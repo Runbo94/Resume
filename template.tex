@@ -1,0 +1,182 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Computer}\\\textbf{Science},
+        \textbf{~~Front End~~}\\\textbf{Web Dev},
+        \textbf{Back End}\\\textbf{Web Dev},
+        \textbf{~~~~~OOP~~~~~~},
+        \textbf{\scriptsize Computer}\\\textbf{\scriptsize Architecture},
+        \textbf{Random}\\\textbf{Algorithm},
+        \textbf{Database}\\\textbf{Design}
+    }
+}
+
+% Programming skill bars
+\programming{{C $\textbullet$ Python / 3}, { SQL $\textbullet$ \large \LaTeX $\textbullet$ \normalsize C++ $\textbullet$ C\#/ 4.5}, { JS(ES6) $\textbullet$ HTML $\textbullet$ CSS $\textbullet$ NoSql $\textbullet$ Java / 6}}
+
+% Projects text
+\projects{
+I'm a graduate student studying in Syracuse University and also a passionate programmer, specializing in full-stack development using \textbf{NODEJS} on the backend.\\
+Strong in object-oriented design and experienced with a wide range of front-end and back-end framework such as \textbf{Angular}, \textbf{React}, \textbf{Express} etc. Also, being an artist in nature, I have a good sense of design, colors, usability and can build beautiful and modern interfaces that people love.
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{RUNBO(CHUCK) ZHAO} % Your name
+\cvjobtitle{ Full Stack Web Developer } % Job
+% title/career
+
+\cvlinkedin{/in/runbo94}
+\cvgithub{Runbo94}
+\cvnumberphone{(315) 883 9767} % Phone number
+\cvsite{rzhao03.mysite.syr.edu} % Personal website
+\cvmail{rzhao03@syr.edu} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitemedu
+    	{AUGUST 2016 - PRESENT}
+        {}
+        {MSc., Computer And Information Science \textnormal{(GPA: 4.0/4.0)}}
+        {\href{https://www.syracuse.edu/}{Syracuse University, USA}}
+        {}
+        {}
+	\twentyitemedu
+    	{SEPTEMBER 2012 - JUNE 2016}
+		{}
+        {BEng., Mathematics And Applied Mathematics}
+        {\href{http://en.xidian.edu.cn/}{Xidian University, China}}
+        {}
+        {}
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+\end{twenty}
+\section{Project}
+\begin{twenty}
+	\twentyitem
+	{05/2018}
+	{- now}
+	{www.renmovie.com}
+	{}
+	{}
+	{
+		{\begin{itemize}
+				\item Restaurants can make their own online menus by input their food data. Also some basic function is included like sign in, sign up, message system.
+				\item Consumers can use the auto-generated menus to make order online. Bootstrap can make website change its layout and interfaces on different devices like mobiles.
+				\item \textbf{Tools}: HTML5, CSS3, Bootstrap, JS, JSP, Servlet, MySQL \vspace{2mm}
+		\end{itemize}}
+	}
+	\twentyitem
+	{10/2017}
+	{- 04/2018}
+	{\href{www.jajang.cloud}{www.jajang.cloud}}
+	{}
+	{}
+	{
+		{\begin{itemize}
+				\item Restaurants can make their own online menus by input their food data. Also some basic function is included like sign in, sign up, message system.
+				\item Consumers can use the auto-generated menus to make order online. Bootstrap can make website change its layout and interfaces on different devices like mobiles.
+				\item \textbf{Tools}: HTML5, CSS3, Bootstrap, JS, JSP, Servlet, MySQL \vspace{2mm}
+		\end{itemize}}
+	}
+	\twentyitem
+	{10/2016}
+	{- 02/2017}
+	{Health Center Database Design}
+	{}
+	{}
+	{
+		{\begin{itemize}
+				\item Store the data for Patient, Visitor, Billing, Insurance, Employees, Patient Room, Patient Health Histories. Design a Descriptive ERD.
+				\item Implement the DB by MicroSoft SQL Server. Create the tables, columns, primary keys, datatypes, nullabilities, and relationships. Implement views and stored procedures.
+				\item \textbf{Tools}: Microsoft SQL Server, Microsoft Visio\vspace{2mm}
+		\end{itemize}}		
+	}
+	\twentyitem
+	{03/2014}
+	{- 06/2015}
+	{Cauchy Problem for Elliptic Equation with Variable-coefficients Using Regularization Method}
+	{funded by the National College Student Innovative Entrepreneurial Training Program}
+	{Team Leader, supervisor: Dr.Xiaoli Feng}
+	{
+		{\begin{itemize}
+				\item Introduced a new regularization -- quasi-boundary-value method (QBV) to solve the Cauchy problem for an elliptic PDE.
+				\item Used the Finite Difference Method to get a linear equation with large sparse matrix; introduced the preconditioned generalize minimum residual (GMRES) to solve the linear equations.
+				\item Used MATLAB to operate for Cauchy problem for Elliptic Equation with two-dimensional and three dimensional variable-coefficients, respectively; displayed the result of numerical implementation to approve the feasibility of the method. \vspace{2mm}
+		\end{itemize}}
+	}
+	\twentyitem
+	{02/2015}
+	{}
+	{Managing Human Capital in Dynamic Network}
+	{2015 Mathematical Contest in Modeling(MCM)}
+	{Team Leader, supervisor: Dr.Feng Ye}
+	{
+		{\begin{itemize}
+				\item Built three models, namely classic feedback system model, Markov feedback system model, and simulation model to simulate the dynamic human managing process within the ICM company.
+				\item Built a multilayer network based on AHP and got the influence of evaluation object from every node.
+		\end{itemize}}
+	}
+\end{twenty}
+\newpage
+\begin{tikzpicture}[remember picture,overlay]
+\node [rectangle, fill=sidecolor, anchor=north, minimum width=9cm, minimum height=\paperheight+5cm] (box) at (-5cm,0.5cm){};
+\end{tikzpicture}
+
+
+\begin{twenty}
+	\twentyitem
+	{06/2014}
+	{- 09/2014}
+	{Geographic Profiling and Space-Time Predicting of Serial Crimes}
+	{}
+	{Team Leader, supervisor: Dr.Shuisheng Zhou}
+	{
+		{\begin{itemize}
+				\item Used modified Rossmo model to predict geographic profiling.
+				\item Built time series model and used secondary exponential smoothing method to solve the model and forecast the time of next crime, which was verified in reality.
+		\end{itemize}}
+	}
+\end{twenty}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+
+\end{document} 
