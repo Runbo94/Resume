@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2018.3.1)  30 JUL 2018 20:44
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2018.3.1)  30 JUL 2018 23:38
 entering extended mode
 **./template.tex
 (template.tex
@@ -1524,6 +1524,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Requested font "cmr12" at 12.0pt
 Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 92.
+
 
 LaTeX Warning: Command \textbullet invalid in math mode on input line 92.
 
