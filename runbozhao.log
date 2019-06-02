@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2018.3.1)  1 JUN 2019 19:11
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6350 64-bit) (preloaded format=xelatex 2018.3.1)  1 JUN 2019 19:13
 entering extended mode
 **./runbozhao.tex
 (runbozhao.tex
@@ -946,12 +946,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
+[]\TU/Lato-Lig(0)/m/sc/10 Achieve basic E-commence functions, such as: authenti
+cation and authorization, product lists, shopping cart,
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 287--289
+\TU/Lato-Lig(0)/m/sc/10 etc.(see[]Runbo94/JaJang-report[]). Also, to make JaJan
+g more functional,some third-part modules is imported in JaJang
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (runbozhao.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 313.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 313.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 312.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -960,12 +971,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
  ) 
 Here is how much of TeX's memory you used:
  19430 strings out of 427834
  369480 string characters out of 3152471
- 474584 words of memory out of 3000000
+ 475520 words of memory out of 3000000
  23284 multiletter control sequences out of 15000+200000
  532748 words of font info for 65 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
